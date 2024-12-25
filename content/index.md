@@ -9,5 +9,4 @@ My hope is that in writing my all of these things down I'll be able to learn in 
 
 This page is pretty blank so far but I'm hoping to change that as time goes on.
 
-
-
+![[Screenshot From 2024-12-24 20-59-10.png|Screenshot From 2024-12-24 20-59-10.png]]

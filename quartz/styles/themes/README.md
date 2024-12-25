@@ -1,19 +1,19 @@
-# Obsidianite
+# Blue Topaz
 
-[Obsidianite](https://github.com/bennyxguo)
+[Blue Topaz](https://github.com/whyt-byte)
 
 ## Usage
 
 ```bash
-just theme Obsidianite
+just theme Blue Topaz
 ```
 
 ## Preview
 
 ### Light
 
-![Preview of Obsidianite Light](preview-light.png)
+![Preview of Blue Topaz Light](preview-light.png)
 
 ### Dark
 
-![Preview of Obsidianite Dark](preview-dark.png)
+![Preview of Blue Topaz Dark](preview-dark.png)

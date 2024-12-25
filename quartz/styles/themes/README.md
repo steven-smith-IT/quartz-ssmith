@@ -1,19 +1,19 @@
-# Blue Topaz
+# Catppuccin
 
-[Blue Topaz](https://github.com/whyt-byte)
+[Catppuccin](https://github.com/catppuccin/obsidian)
 
 ## Usage
 
 ```bash
-just theme Blue Topaz
+just theme Catppuccin
 ```
 
 ## Preview
 
 ### Light
 
-![Preview of Blue Topaz Light](preview-light.png)
+![Preview of Catppuccin Light](preview-light.png)
 
 ### Dark
 
-![Preview of Blue Topaz Dark](preview-dark.png)
+![Preview of Catppuccin Dark](preview-dark.png)

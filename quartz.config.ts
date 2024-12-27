@@ -12,9 +12,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { provider: 'umami', host: 'umami.stevensmith.me', websiteId: '14eadd39-2eea-4183-9b5b-b2bf5eba5cc1' },
     locale: "en-US",
     baseUrl: "www.stevensmith.me",
     ignorePatterns: ["private", "templates", ".obsidian"],

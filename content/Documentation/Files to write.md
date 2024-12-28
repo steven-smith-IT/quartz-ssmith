@@ -1,7 +1,7 @@
 ---
 share: true
-date: 2024-12-27
-date-modified: 2024-12-27
+created: 2024-12-27
+modified: 2024-12-28
 ---
 - Home lab setup
 	- Proxmox

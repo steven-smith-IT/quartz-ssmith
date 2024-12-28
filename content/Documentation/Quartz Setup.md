@@ -2,7 +2,7 @@
 title: Quartz Setup
 share: true
 date: 2024-12-23
-date-modified: 2024-12-25
+date-modified: 2024-12-27
 ---
 
 # Getting things set up
@@ -17,7 +17,7 @@ I cloned the repo and have it hosted at https://github.com/steven-smith-IT/quart
 >Well, that was incorrect. The easiest way to avoid this leak was to just keep the private information out of this vault.
 
 ## Hosting Setup
-I decided to go with [Cloudflare for hosting](https://quartz.jzhao.xyz/hosting#cloudflare-page)s. This decision stems from the Separation of vaults callout. When I was self-hosting my git repo to avoid leaking private info it disqualified GitHub pages as the options. I've since changed my mind and had already set up cloud-flare pages so I decided to stick with it.
+I decided to go with [Cloudflare for hosting](https://quartz.jzhao.xyz/hosting#cloudflare-page). This decision stems from the Separation of vaults callout. When I was self-hosting my git repo to avoid leaking private info it disqualified GitHub pages as the options. I've since changed my mind and had already set up cloud-flare pages so I decided to stick with it.
 
 ## Publishing Content
 Quartz makes things super simple but Ideally I don't want to have to touch the quartz config after I get it set up. I've decided to start with [Obsidian Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe). The only real change I've made to the default configs is to make sure notes are uploaded to the `content` folder. This means I can update my site just through obsidian without having to worry about keeping this obsidian vault symbolically linked, as a git sub-module, or contained entirely within the content directory of the quartz repo.

@@ -1,8 +1,8 @@
 ---
 title: Welcome to Quartz
 share: true
-date: 2024-12-15
-date-modified: 2024-12-25
+created: 2024-12-15
+modified: 2024-12-28
 ---
 
 Hi! I'm Steven Smith. This is my website and digital notes garden where I hope to catalog the things that interest me as well as some of the things I've learned and solutions I've come across.

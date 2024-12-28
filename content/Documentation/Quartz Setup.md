@@ -1,8 +1,8 @@
 ---
 title: Quartz Setup
 share: true
-date: 2024-12-23
-date-modified: 2024-12-27
+created: 2024-12-23
+modified: 2024-12-28
 ---
 
 # Getting things set up

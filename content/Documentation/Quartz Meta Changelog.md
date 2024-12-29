@@ -13,13 +13,11 @@ I first added [Obsidian-Linter](https://github.com/platers/obsidian-linter) to m
 
 I then edited the below file as such:
 
-```tsx name="quartz/components/ContentMeta.tsx"
-/* Previously
-
+```tsx title="quartz/components/ContentMeta.tsx"
+/* Previous lines
 if (fileData.dates) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }    
-
 */
 
 if (fileData.dates && fileData.slug !== "index"){

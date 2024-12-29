@@ -25,3 +25,5 @@ if (fileData.dates && fileData.slug !== "index"){
         segments.push("Modified: " + fileData.dates.modified.toDateString() + " - ")
       }
 ```
+
+This method piggybacks on the variables set by the `lastmod.ts` transformer.

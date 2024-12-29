@@ -7,6 +7,8 @@ I was thoroughly inspired by [Eileen's Quartz Change Log](https://quartz.eilleee
 
 ---
 ## Add Date Modified to files
+Added: December 28 2024
+
 I first added [Obsidian-Linter](https://github.com/platers/obsidian-linter) to my vault and created created a frontmatter key of `created` with the value of the file creation date as `YYYY-MM-DD` format. I then created a `modified` key with the value of files's last modified time and the same format.
 
 I then edited the below file as such:

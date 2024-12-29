@@ -9,6 +9,8 @@ Hi! I'm Steven Smith. This is my website and digital notes garden where I hope t
 
 My hope is that in writing my all of these things down I'll be able to learn in public and also help myself remember things in the future. 
 
+All of my documents currently live in [[Documentation/|Documentation/]] . I'm leaving this link here just to make sure folks on mobile can see the pages. 
+
 
 ---
 # Recently Updated Pages

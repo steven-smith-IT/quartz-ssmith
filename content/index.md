@@ -26,8 +26,7 @@ Thanks for being a part of my public learning journey!
 # Recently Updated Pages
 | File                                            | Date Modified     |
 | ----------------------------------------------- | ----------------- |
-| [[./Notes/Files to write\|Files to write]]     | December 28, 2024 |
-| [[./Guides/Quartz Setup\|Quartz Setup]]        | December 30, 2024 |
 | [[./Notes/Quartz Changelog\|Quartz Changelog]] | December 30, 2024 |
-| [[./content/tags/meta\|meta]]                  | December 30, 2024 |
+| [[./Guides/Quartz Setup\|Quartz Setup]]        | December 30, 2024 |
+| [[./Notes/Files to write\|Files to write]]     | December 28, 2024 |
 

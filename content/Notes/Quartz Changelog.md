@@ -1,7 +1,9 @@
 ---
 created: 2024-12-28
-modified: 2024-12-28
+modified: 2024-12-30
 share: true
+tags:
+  - meta
 ---
 I was thoroughly inspired by [Eilleen's Quartz Change Log](https://quartz.eilleeenz.com/Quartz-customization-log) and decided to do much the same. Hopefully this is a massive benefit to future me and a minor benefit to those who want to know what I've done to make my site look slightly different from other quartz sites.
 

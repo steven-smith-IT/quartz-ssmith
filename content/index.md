@@ -15,7 +15,7 @@ My site is divided into three main categories:
 - [[Notes/|Notes/]] - These are less polished pages. They're meant to hold small tidbits of information that I constantly return to or want to make sure I remember.
 - [[Guides/|Guides/]]  - Theses are the more polished notes. They cover a topic from start to finish and are me trying to explain what I've learned for others and also write them down in a way that reinforces the learning for myself.
 
-If you're curious about this site and how I've set it up. I've tagged all of those pages with [[tags/meta|tags/meta]]. 
+If you're curious about this site and how I've set it up. I've tagged all of those pages with [[./content/tags/meta|tags/meta]]. 
 
 Thanks for being a part of my public learning journey!
 
@@ -24,9 +24,10 @@ Thanks for being a part of my public learning journey!
 
 ---
 # Recently Updated Pages
-| File                                                      | Date Modified     |
-| --------------------------------------------------------- | ----------------- |
-| [[./Guides/Quartz Setup\|Quartz Setup]]                  | December 28, 2024 |
-| [[./Notes/Quartz Meta Changelog\|Quartz Meta Changelog]] | December 28, 2024 |
-| [[./Notes/Files to write\|Files to write]]               | December 28, 2024 |
+| File                                            | Date Modified     |
+| ----------------------------------------------- | ----------------- |
+| [[./Notes/Files to write\|Files to write]]     | December 28, 2024 |
+| [[./Guides/Quartz Setup\|Quartz Setup]]        | December 30, 2024 |
+| [[./Notes/Quartz Changelog\|Quartz Changelog]] | December 30, 2024 |
+| [[./content/tags/meta\|meta]]                  | December 30, 2024 |
 

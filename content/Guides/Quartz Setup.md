@@ -2,7 +2,9 @@
 title: Quartz Setup
 share: true
 created: 2024-12-23
-modified: 2024-12-28
+modified: 2024-12-30
+tags:
+  - meta
 ---
 
 # Getting things set up

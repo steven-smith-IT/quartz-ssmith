@@ -10,7 +10,7 @@ I was thoroughly inspired by [Eilleen's Quartz Change Log](https://quartz.eillee
 ## Add Recent Documents Table to front page with quartz component
 Added: Jan 11 2025
 
-This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quartz Changelog > Add Date Modified to files]] post. Its another almost full rip from [Eilleen](https://quartz.eilleeenz.com/Quartz-customization-log#putting-date-created--modified-on-content-pages-but-not-index). I borrow her iteration of a custom "OnlyFor" component. 
+This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quartz Changelog > Add Date Modified to files]] post. Its another almost full rip from [Eilleen](https://quartz.eilleeenz.com/Quartz-customization-log#onlyfor-component-and-in-layout). I borrow her iteration of a custom "OnlyFor" component. 
 
 Its better to reference these files in their current state so what I did was create: https://github.com/steven-smith-IT/quartz-ssmith/blob/v4/quartz/components/_OnlyFor.tsx
 

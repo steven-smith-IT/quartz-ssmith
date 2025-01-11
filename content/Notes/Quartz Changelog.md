@@ -7,7 +7,21 @@ tags:
 ---
 I was thoroughly inspired by [Eilleen's Quartz Change Log](https://quartz.eilleeenz.com/Quartz-customization-log) and decided to do much the same. Hopefully this is a massive benefit to future me and a minor benefit to those who want to know what I've done to make my site look slightly different from other quartz sites.
 
-## Add Recent Documents Table to front page with quartz component
+## Enable social media image generation in config
+Added: Jan 11 2025
+
+Updated the `quartz.config.ts` to generate dynamic preview images. These settings are the default with the exception of generating them in dark mode.
+
+```ts
+    generateSocialImages: {
+      colorScheme: "darkMode", // what colors to use for generating image, same as theme colors from config, valid values are "darkMode" and "lightMode"
+      width: 1200, // width to generate with (in pixels)
+      height: 630, // height to generate with (in pixels)
+      excludeRoot: false, // wether to exclude "/" index path to be excluded from auto generated images (false = use auto, true = use default og image)
+    },
+```
+---
+## Add recent documents table to front page with quartz component
 Added: Jan 11 2025
 
 This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quartz Changelog > Add Date Modified to files]] post. Its another almost full rip from [Eilleen](https://quartz.eilleeenz.com/Quartz-customization-log#onlyfor-component-and-in-layout). I borrow her iteration of a custom "OnlyFor" component. 
@@ -26,7 +40,7 @@ I then added this block to the `AfterBody` group in `quartz.layout.ts` to make s
 ```
 
 ---
-## Add Recent Documents Table inside the body of other content
+## Add recent documents table inside the body of other content
 Added: Jan 11 2025
 
 This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quartz Changelog > Add Date Modified to files]] post. Its a low/no code way to do it and I really appreciate that it requires no changes to the files in obsidian.
@@ -47,7 +61,7 @@ This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quar
 > ```
 
 ---
-## Add Date Modified to files
+## Add date modified to files
 Added: December 28 2024
 
 This change takes heavy inspiration from [Eilleen](https://quartz.eilleeenz.com/Quartz-customization-log#putting-date-created--modified-on-content-pages-but-not-index) in that I borrow her logic entirely and just made use of some pre-existing variables that the `lastmod.ts` transformer creates.

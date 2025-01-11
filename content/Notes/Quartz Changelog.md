@@ -7,11 +7,41 @@ tags:
 ---
 I was thoroughly inspired by [Eilleen's Quartz Change Log](https://quartz.eilleeenz.com/Quartz-customization-log) and decided to do much the same. Hopefully this is a massive benefit to future me and a minor benefit to those who want to know what I've done to make my site look slightly different from other quartz sites.
 
----
-## Add Recent Documents Table to front page
+## Add Recent Documents Table to front page with quartz component
 Added: Jan 11 2025
 
 This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quartz Changelog > Add Date Modified to files]] post. Its another almost full rip from [Eilleen](https://quartz.eilleeenz.com/Quartz-customization-log#putting-date-created--modified-on-content-pages-but-not-index). I borrow her iteration of a custom "OnlyFor" component. 
+
+Its better to reference these files in their current state so what I did was create: https://github.com/steven-smith-IT/quartz-ssmith/blob/v4/quartz/components/_OnlyFor.tsx
+
+Then you have to make sure to update `index.ts` in the `components` folder to export this new component.
+
+I then added this block to the `AfterBody` group in `quartz.layout.ts` to make sure this element only appears on the main page.
+
+```ts
+    Component.OnlyFor(
+      { titles: ["Steven's Digital Notebook"] },
+      Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
+    ),
+```
+
+---
+## Add Recent Documents Table inside the body of other content
+Added: Jan 11 2025
+
+This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quartz Changelog > Add Date Modified to files]] post. Its a low/no code way to do it and I really appreciate that it requires no changes to the files in obsidian.
+
+> [!NOTE]- Dataview Query Example
+>Note: If i wanted to change this to be last modified, I could instead do `TABLE modified AS "Date Modified"` and change the last line to `SORT modified desc`. The limit also determines how many entries are in the table. I like 5 as more feels a bit clunky.
+>
+> ```
+> TABLE created AS "Date Created"
+> FROM -"tags"
+> WHERE file.name != "index" and share = true
+> LIMIT 5
+> SORT created desc
+> ```
+
 
 ---
 ## Add Date Modified to files

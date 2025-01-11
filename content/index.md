@@ -2,7 +2,7 @@
 title: Learning in Public
 share: true
 created: 2024-12-15
-modified: 2024-12-30
+modified: 2025-01-11
 comments: false
 ---
 
@@ -23,11 +23,11 @@ Thanks for being a part of my public learning journey!
 
 
 ---
-# Recently Updated Pages
-| File                                                                                   | Date Modified     |
+# Recently Published Pages
+| File                                                                                   | Date Created      |
 | -------------------------------------------------------------------------------------- | ----------------- |
-| [[./Notes/Quartz Changelog\|Quartz Changelog]]                                        | December 30, 2024 |
+| [[./Notes/Quartz Changelog\|Quartz Changelog]]                                        | December 28, 2024 |
 | [[./Thoughts/Creating a website and some habits\|Creating a website and some habits]] | December 30, 2024 |
-| [[./Guides/Quartz Setup\|Quartz Setup]]                                               | December 30, 2024 |
-| [[./Notes/Files to write\|Files to write]]                                            | December 28, 2024 |
+| [[./Guides/Quartz Setup\|Quartz Setup]]                                               | December 23, 2024 |
+| [[./Notes/Files to write\|Files to write]]                                            | December 27, 2024 |
 

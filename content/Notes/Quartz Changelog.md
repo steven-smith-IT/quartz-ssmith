@@ -30,7 +30,7 @@ SORT modified desc
 ## Add Date Modified to files
 Added: December 28 2024
 
-This change takes heavy inspiration from [Eilleen](https://www.stevensmith.me/Documentation/Quartz-Meta-Changelog#add-date-modified-to-files) in that I borrow her logic enitrely and just made use of some pre-existing variables that the `lastmod.ts` transformer creates.
+This change takes heavy inspiration from [Eilleen](https://quartz.eilleeenz.com/Quartz-customization-log#putting-date-created--modified-on-content-pages-but-not-index) in that I borrow her logic entirely and just made use of some pre-existing variables that the `lastmod.ts` transformer creates.
 
 I first added [Obsidian-Linter](https://github.com/platers/obsidian-linter) to my vault and created created a frontmatter key of `created` with the value of the file creation date as `YYYY-MM-DD` format. I then created a `modified` key with the value of files's last modified time and the same format.
 

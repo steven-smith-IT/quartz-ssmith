@@ -38,6 +38,7 @@ I then added this block to the `AfterBody` group in `quartz.layout.ts` to make s
       Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
     ),
 ```
+
 ---
 ## Add recent documents table inside the body of other content
 Added: Jan 11 2025
@@ -67,7 +68,6 @@ This change takes heavy inspiration from [Eilleen](https://quartz.eilleeenz.com/
 I first added [Obsidian-Linter](https://github.com/platers/obsidian-linter) to my vault and created created a frontmatter key of `created` with the value of the file creation date as `YYYY-MM-DD` format. I then created a `modified` key with the value of files's last modified time and the same format.
 
 I then edited the below file as such:
-
 ```tsx title="quartz/components/ContentMeta.tsx"
 /* Previous lines
 if (fileData.dates) {

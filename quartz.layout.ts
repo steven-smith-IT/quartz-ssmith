@@ -6,18 +6,22 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+    Component.OnlyFor(
+      { titles: ["Steven's Digital Notebook"] },
+      Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
+    ),
     Component.Comments({
-      provider: 'giscus',
+      provider: "giscus",
       options: {
         // from data-repo
-        repo: 'steven-smith-IT/quartz-ssmith',
+        repo: "steven-smith-IT/quartz-ssmith",
         // from data-repo-id
-        repoId: 'R_kgDONh7DmQ',
+        repoId: "R_kgDONh7DmQ",
         // from data-category
-        category: 'Announcements',
+        category: "Announcements",
         // from data-category-id
-        categoryId: 'DIC_kwDONh7Dmc4ClnaB',
-      }
+        categoryId: "DIC_kwDONh7Dmc4ClnaB",
+      },
     }),
   ],
   footer: Component.Footer({

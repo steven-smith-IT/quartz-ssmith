@@ -16,15 +16,17 @@ This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quar
 1. I use  [Obsidian-Linter](https://github.com/platers/obsidian-linter) to create the `created` and `modified` for each.
 2. I have created a dataview table using the [Obsidian Dataview Plugin](https://github.com/blacksmithgu/obsidian-dataview) that queries my library for these fields and creates a dynamic table
 3. I upload my files using [Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe) which automatically translates the query to a markdown table so every time I publish there is a new table generated on the index of my site. 
+
 > [!NOTE]- Dataview Query Example
 >Note: If i wanted to change this to be last modified, I could instead do `TABLE modified AS "Date Modified"`
 > ```
 > TABLE created AS "Date Created"
-FROM -"tags"
-WHERE file.name != "index" and share = true
-LIMIT 5
-SORT modified desc
+> FROM -"tags"
+> WHERE file.name != "index" and share = true
+> LIMIT 5
+> SORT modified desc
 > ```
+> 
 
 ---
 ## Add Date Modified to files

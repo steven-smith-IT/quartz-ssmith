@@ -18,15 +18,16 @@ This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quar
 3. I upload my files using [Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe) which automatically translates the query to a markdown table so every time I publish there is a new table generated on the index of my site. 
 
 > [!NOTE]- Dataview Query Example
->Note: If i wanted to change this to be last modified, I could instead do `TABLE modified AS "Date Modified"`
+>Note: If i wanted to change this to be last modified, I could instead do `TABLE modified AS "Date Modified"` and change the last line to `SORT modified desc`. The limit also determines how many entries are in the table. I like 5 as more feels a bit clunky.
+>
 > ```
 > TABLE created AS "Date Created"
 > FROM -"tags"
 > WHERE file.name != "index" and share = true
 > LIMIT 5
-> SORT modified desc
+> SORT created desc
 > ```
-> 
+
 
 ---
 ## Add Date Modified to files

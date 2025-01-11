@@ -26,8 +26,8 @@ Thanks for being a part of my public learning journey!
 # Recently Published Pages
 | File                                                                                   | Date Created      |
 | -------------------------------------------------------------------------------------- | ----------------- |
-| [[./Notes/Quartz Changelog\|Quartz Changelog]]                                        | December 28, 2024 |
 | [[./Thoughts/Creating a website and some habits\|Creating a website and some habits]] | December 30, 2024 |
-| [[./Guides/Quartz Setup\|Quartz Setup]]                                               | December 23, 2024 |
+| [[./Notes/Quartz Changelog\|Quartz Changelog]]                                        | December 28, 2024 |
 | [[./Notes/Files to write\|Files to write]]                                            | December 27, 2024 |
+| [[./Guides/Quartz Setup\|Quartz Setup]]                                               | December 23, 2024 |
 

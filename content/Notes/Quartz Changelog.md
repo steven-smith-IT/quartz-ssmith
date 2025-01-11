@@ -38,7 +38,6 @@ I then added this block to the `AfterBody` group in `quartz.layout.ts` to make s
       Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
     ),
 ```
-
 ---
 ## Add recent documents table inside the body of other content
 Added: Jan 11 2025
@@ -59,7 +58,6 @@ This change piggybacks on the [[Quartz Changelog#Add Date Modified to files|Quar
 > LIMIT 5
 > SORT created desc
 > ```
-
 ---
 ## Add date modified to files
 Added: December 28 2024
@@ -82,3 +80,4 @@ if (fileData.dates && fileData.slug !== "index"){
         segments.push("Modified: " + fileData.dates.modified.toDateString() + " - ")
       }
 ```
+---

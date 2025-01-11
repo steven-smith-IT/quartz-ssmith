@@ -12,12 +12,16 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: { provider: 'umami', host: 'https://umami.stevensmith.me', websiteId: '14eadd39-2eea-4183-9b5b-b2bf5eba5cc1' },
+    analytics: {
+      provider: "umami",
+      host: "https://umami.stevensmith.me",
+      websiteId: "14eadd39-2eea-4183-9b5b-b2bf5eba5cc1",
+    },
     locale: "en-US",
     baseUrl: "www.stevensmith.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: false,
+    generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,

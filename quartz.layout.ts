@@ -8,7 +8,12 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.OnlyFor(
       { titles: ["Steven's Digital Notebook"] },
-      Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
+      Component.RecentNotes({
+        showTags: true,
+        title: "Recently added notes:",
+        showDate: true,
+        limit: 5,
+      }),
     ),
     Component.Comments({
       provider: "giscus",

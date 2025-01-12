@@ -32,6 +32,7 @@ Then you have to make sure to update `index.ts` in the `components` folder to ex
 
 I then added this block to the `AfterBody` group in `quartz.layout.ts` to make sure this element only appears on the main page.
 
+The below may change as I tweak the settings for display. Check my [Quartz Layout](https://github.com/steven-smith-IT/quartz-ssmith/blob/v4/quartz.layout.ts) for the most currently live version.
 ```ts
     Component.OnlyFor(
       { titles: ["Steven's Digital Notebook"] },
